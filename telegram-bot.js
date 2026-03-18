@@ -30,8 +30,7 @@ if (!BOT_TOKEN) {
     process.exit(1);
 }
 
-// Your localtunnel URL
-const BASE_URL = 'https://horseracing.loca.lt';
+const BASE_URL = 'https://horse-racing-pu5g.onrender.com';';
 
 // Initialize bot
 const bot = new Telegraf(BOT_TOKEN);
