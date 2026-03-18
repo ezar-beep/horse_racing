@@ -30,7 +30,7 @@ if (!BOT_TOKEN) {
     process.exit(1);
 }
 
-const BASE_URL = 'https://horse-racing-pu5g.onrender.com';';
+const BASE_URL = 'https://horse-racing-pu5g.onrender.com';
 
 // Initialize bot
 const bot = new Telegraf(BOT_TOKEN);
